@@ -1,0 +1,89 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+   android:background="@drawable/ugbackground"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <EditText
+        android:id="@+id/phonenumber"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginHorizontal="14dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="172dp"
+        android:background="@drawable/editextbg"
+        android:drawableStart="@drawable/ic_smartphone_black_24dp"
+        android:hint="Enter Phone Number.."
+        android:inputType="number"
+        android:maxLength="10"
+
+        android:paddingLeft="16dp"
+        android:textColor="#6a6a6a"
+        android:textColorHint="#6a6a6a"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/Otp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginHorizontal="6dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/editextbg"
+        android:drawableStart="@drawable/ic_lock_black_24dp"
+        android:hint="Enter Your Otp "
+        android:inputType="number"
+       android:visibility="invisible"
+        android:paddingLeft="16dp"
+        android:textColor="#6a6a6a"
+
+        android:textColorHint="#6a6a6a"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phonenumber" />
+
+    <Button
+        android:id="@+id/sendvericode"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/btnbg"
+
+        android:text="Send Verification Code"
+        android:textColor="#fff"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Otp"
+        app:layout_constraintVertical_bias="0.005" />
+
+    <Button
+        android:id="@+id/vericode"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="80dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/btnbg"
+        android:text="Verify OTP"
+
+       android:visibility="invisible"
+        android:textColor="#fff"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sendvericode" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

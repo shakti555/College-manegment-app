@@ -1,0 +1,330 @@
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+        <com.smarteist.autoimageslider.SliderLayout
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:id="@+id/camusslider"
+            ></com.smarteist.autoimageslider.SliderLayout>
+
+
+
+
+
+    </LinearLayout>
+
+    <HorizontalScrollView android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="horizontal"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+    <androidx.cardview.widget.CardView
+        android:layout_height="wrap_content"
+
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        app:cardElevation="6dp"
+        android:layout_marginHorizontal="12dp"
+
+        android:layout_width="300dp"
+        app:cardCornerRadius="12dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:padding="16dp"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:textSize="22dp"
+              android:textStyle="bold"
+                android:elevation="15dp"
+                 android:gravity="center"
+                android:textColor="#0f1748"
+                 android:text="Infrastructure"
+
+                       />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:textSize="20dp"
+                 android:textAlignment="viewStart"
+                android:elevation="15dp"
+                android:gravity="center"
+                android:textColor="#0f1748"
+                android:text="The College has  6 storeyed buildings  with different blocks which accommodate all the class rooms, office rooms, Principals chambers, separate staff rooms for different departments, laboratories, Workshop,boysHostel,girlsHostel etc. The class rooms are spacious and furnished. Every departments have spacious and well equipped laboratories and stores with sufficient stock of equipment "
+
+                />
+
+
+
+
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_height="wrap_content"
+
+        android:layout_width="300dp"
+       android:layout_marginHorizontal="12dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        app:cardElevation="6dp"
+        app:cardCornerRadius="12dp"
+        android:layout_margin="8dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:padding="16dp"
+            android:orientation="vertical"
+
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:elevation="15dp"
+
+                android:gravity="center"
+                android:textColor="#0f1748"
+                android:text="Lab Facility for CSE and It Department"
+
+
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:textSize="20dp"
+                android:textAlignment="viewStart"
+                android:elevation="15dp"
+                android:gravity="center"
+                android:textColor="#0f1748"
+                android:text="Currently the Department has two well-equipped state-of-art computer laboratories namely, Computer Lab 1 and Computer Lab 2 having 50 state-of-the-art desktop and servers with latest configuration. All the computers are inter-connected to various high-end servers running Operating Systems like Windows 10, Linux, and backed by 2 KVA inverter power backup. All the Laboratories of the Department are connected through Cat 6 cable. 64kbps All the Laboratories of the Department are connected through Cat 6 cable. 64kbps internet connectivity is available in the Department. All the classrooms are equipped with digital teaching aids like LCD projectors, white board and advanced LaserJet printers.
+Some latest licensed software available in the department laboratories are:
+1. Oracle 10g
+2. Adobe CS 4 Design Premium Package
+3. Java Package
+4. Visual Studio 2010"
+
+
+                />
+
+
+
+
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_height="wrap_content"
+
+        android:layout_width="300dp"
+        android:layout_marginHorizontal="12dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        app:cardElevation="6dp"
+        app:cardCornerRadius="12dp"
+        android:layout_margin="8dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:padding="16dp"
+            android:orientation="vertical"
+
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:elevation="15dp"
+                android:gravity="center"
+                android:textColor="#0f1748"
+                android:text="Lab Facility for Electronics Department"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:textSize="20dp"
+                android:textAlignment="viewStart"
+                android:elevation="15dp"
+                android:gravity="center"
+                android:textColor="#0f1748"
+               android:text="Currently the Department has four well equipped and advance labs named as Electronic workshop, electronics lab, radio  TV engineering lab and digital microprocessor lab. Advanced equipments such as CRO, Microprocessor 8085 and 8086 kits, digital meters, ASK, PSK, FSK kits, Power supply kits etc are available in labs."
+
+                />
+
+
+
+
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_height="wrap_content"
+
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:cardElevation="6dp"
+            android:layout_marginHorizontal="12dp"
+
+            android:layout_width="300dp"
+            app:cardCornerRadius="12dp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="16dp"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:elevation="15dp"
+                    android:gravity="center"
+                    android:textColor="#0f1748"
+                    android:text="Laibrary"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:textSize="20dp"
+                    android:elevation="15dp"
+                    android:gravity="center"
+                    android:textAlignment="viewStart"
+                    android:textColor="#0f1748"
+                    android:text= "Library is running under the guidance of our Librarian Miss Kanchan
+. All Library records are managed Digitally By Library management System Software. We have three computer System and one Printer for manage this Digitally. Total 8 journals are given to the Students for updated from technology."
+
+                    />
+
+
+
+
+
+            </LinearLayout>
+
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_height="wrap_content"
+
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:cardElevation="6dp"
+            android:layout_marginHorizontal="12dp"
+
+            android:layout_width="300dp"
+            app:cardCornerRadius="12dp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="16dp"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:elevation="15dp"
+                    android:gravity="center"
+                    android:textColor="#0f1748"
+                    android:text="Sports"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:textSize="20dp"
+                    android:textAlignment="viewStart"
+                    android:elevation="15dp"
+                    android:gravity="center"
+                    android:textColor="#0f1748"
+                   android:text="Sports and games curriculum is an integral and compulsory part of the education process. Sports help to build character and teach the importance of discipline in life. It inculcates a respect for rules and allows the participants to learn the value to self control.Every year we conduct GPA games and Annual Function. all winning Participant are represent the college in Zonal and State games"
+
+                    />
+
+
+
+
+
+            </LinearLayout>
+
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+    </HorizontalScrollView>
+
+
+
+</LinearLayout>
+</ScrollView>

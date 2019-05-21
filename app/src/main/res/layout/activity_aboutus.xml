@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context=".aboutus">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <androidx.cardview.widget.CardView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="8dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:padding="16dp"
+                    android:orientation="vertical"
+
+                    >
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="180dp"
+                        android:layout_height="180dp"
+
+                        android:layout_marginVertical="5dp"
+                        android:src="@drawable/hmareprincipal"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mr.Mukesh Chandra Anand"
+                        android:textSize="20dp"
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="3dp"
+                        android:text="(Principal of Government Polytechnic Aurai)"
+                        android:textSize="16dp"
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="3dp"
+                        android:text="Email : mukeshanand26@gmail.com"
+                        android:textSize="18dp"
+
+                        />
+
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="8dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:padding="16dp"
+                    android:orientation="vertical"
+
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:textSize="18dp"
+                     android:textStyle="normal"
+                        android:textAlignment="viewStart"
+                        android:elevation="15dp"
+                        android:textColor="#434246"
+                        android:text="Government Polytechnic Aurai (Sant Ravidas Nagar Bhadohi) Is government Institute Located At Aurai In uttar Pradesh . The Address Of The Institute Is Katehara ,Sant Ravidas Nagar , Pincode 221301 . It Operates Under The Parent Organization Government Polytechnic Aurai (Sant Ravidas Nagar Bhadohi) . The Institute Started Its First Course In 2010. Government Polytechnic Aurai (Sant Ravidas Nagar Bhadohi) Is Open For Both Men And Women. Government Polytechnic Aurai (Sant Ravidas Nagar Bhadohi) Is Open For All Sections Of Society. The Head Of The Insititute Is Principal Mukesh Chandra Anand .
+Contact Details:
+Approved By : (AICTE) All India Council of Technical Education
+Affiliated To : Uttar Pradesh Board of Technical Education, Lucknow
+Website: Www.Gpaurai.Ac.In
+Email: Principalgpaurai@Gmail.com
+Landline No: 5414 - 218010
+
+FACULTY: Total Faculty In College: 24
+FACILITIES: Boys Hostel, Girls Hostel, Library. Sports, Cafeteria, Auditorium, IT Infrastructure"
+
+                        />
+
+
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

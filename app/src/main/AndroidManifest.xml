@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="aurai.polytechnic.government.GPA">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/aapy"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Newsfeed"
+            android:label="NewsFeed"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Adminlogin"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".Faculity"
+            android:label="@string/faculity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".aboutus"
+            android:label="About us"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".campus"
+            android:label="Student Section"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".achivment" />
+        <activity
+            android:name=".Facilites"
+            android:label="Facilities"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".myadminlogin"
+            android:label="Welcome Admin"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".changeadminapp" />
+        <activity
+            android:name=".newpost"
+            android:label="Add new Post" />
+        <activity
+            android:name=".updatepost"
+            android:label="Update Post" />
+        <activity
+            android:name=".cse_department"
+            android:label="Computer Science and Engineering"
+            android:parentActivityName=".Faculity" />
+        <activity
+            android:name=".Add_faculity"
+            android:label="Add Faculity" />
+        <activity
+            android:name=".It_Department"
+            android:label="Information Technology"
+            android:parentActivityName=".Faculity" />
+        <activity
+            android:name=".Elex_Department"
+            android:label="Electronics Engineering"
+            android:parentActivityName=".Faculity" />
+        <activity
+            android:name=".Applieddep"
+            android:label="Applied Faculty"
+            android:parentActivityName=".Faculity" />
+        <activity
+            android:name=".nonteching"
+            android:label="Non Teaching and Supporting Staff"
+            android:parentActivityName=".Faculity" />
+        <activity
+            android:name=".PhoneNumber"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".userregistration"
+            android:label="Registration" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+        <activity android:name=".UpdateFaculty" />
+        <activity
+            android:name=".devlopers"
+            android:label="About Devlopers"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".uploadpdf"
+            android:label="Upload Pdf" />
+        <activity android:name=".addtest" />
+        <activity
+            android:name=".onlinetest"
+            android:label="Online Test"
+            android:parentActivityName=".campus" />
+        <activity android:name=".fullscreenimage"
+            android:theme="@style/AppTheme.NoActionBar"
+            ></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">GPAurai</string>
+    <string name="faculity">Faculity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_myadminlogin">myadminlogin</string>
+
+
+    <string name="reply">Reply</string>
+    <string name="create_class">Create class</string>
+    <string name="class_title">Class title</string>
+    <string name="class_name">Class name</string>
+    <string name="ask_ques">Type a question</string>
+    <string name="enter_name">Enter name</string>
+    <string name="save">Save</string>
+    <string name="india">India</string>
+    <string name="enter_number">Enter mobile number</string>
+    <string name="next">Next</string>
+    <string name="myprivate">Private</string>
+    <string name="mypublic">Public</string>
+    <string name="classCode">Enter class code</string>
+    <string name="mobile">Mobile</string>
+
+
+</resources>

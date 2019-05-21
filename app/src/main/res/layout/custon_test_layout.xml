@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_height="114dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView
+        android:layout_height="100dp"
+        android:layout_width="match_parent"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        app:cardElevation="6dp"
+        app:cardCornerRadius="12dp"
+        android:layout_margin="8dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+
+          android:id="@+id/webviewact"
+            android:orientation="horizontal"
+
+            >
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/pdfbtnimg"
+                android:layout_weight=".6"
+                android:layout_gravity="center"
+                android:layout_marginVertical="10dp"
+
+                android:src="@drawable/testicon"/>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1.2"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Online Test for Cse and It Department"
+                    android:id="@+id/tsttt"
+                    android:textSize="16dp"
+                    android:textColor="#6f6f6f"
+                    android:layout_marginTop="20dp"
+
+                    android:layout_marginLeft="5dp"
+                    android:textStyle="bold"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="05/11/2019"
+                    android:id="@+id/ttdate"
+                    android:textSize="14dp"
+                    android:textColor="#6f6f6f"
+                    android:layout_marginTop="5dp"
+
+                    android:layout_marginLeft="5dp"
+                    android:textStyle="bold"
+
+                    />
+
+            </LinearLayout>
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="40dp"
+                android:layout_weight=".1"
+                android:layout_gravity="center"
+
+                android:id="@+id/testdel"
+                android:visibility="invisible"
+
+                android:src="@drawable/ic_delete_black_24dp"
+                />
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

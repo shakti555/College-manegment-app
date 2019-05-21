@@ -1,0 +1,35 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/nimageview"
+        android:layout_width="330dp"
+        android:layout_gravity="center"
+        android:layout_height="320dp"
+        android:src="@drawable/newpost"
+        android:layout_marginTop="10dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Write Something..."
+        android:layout_marginTop="10dp"
+        android:id="@+id/edittext_dis"
+        />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Post"
+        android:id="@+id/post_btn"
+        android:layout_marginTop="5dp"
+        android:textColor="#fff"
+        android:background="@drawable/btnbg"
+        />
+
+
+
+</LinearLayout>

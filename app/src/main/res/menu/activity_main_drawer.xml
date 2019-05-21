@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Admin"
+            android:icon="@drawable/admin_ic"
+            android:title="Admin Login" />
+        <item
+            android:id="@+id/share"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Share" />
+        <item
+            android:id="@+id/contactus"
+            android:icon="@drawable/ic_assignment_ind_black_24dp"
+            android:title="Devlopers" />
+
+    </group>
+
+
+
+</menu>
