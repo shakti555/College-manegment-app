@@ -3,6 +3,7 @@ package aurai.polytechnic.government.GPA;
 import android.content.ActivityNotFoundException;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import androidx.annotation.NonNull;
 import com.google.android.material.navigation.NavigationView;
@@ -173,6 +174,9 @@ public class MainActivity extends AppCompatActivity
             startActivity(intent);
 
 
+        }else if (id == R.id.website) {
+            Uri uri = Uri.parse("http://gpaurai.ac.in/");
+            startActivity(new Intent(Intent.ACTION_VIEW,uri));
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

@@ -13,6 +13,10 @@
             android:icon="@drawable/ic_menu_share"
             android:title="Share" />
         <item
+            android:id="@+id/website"
+            android:icon="@drawable/ic_web"
+            android:title="Website" />
+        <item
             android:id="@+id/contactus"
             android:icon="@drawable/ic_assignment_ind_black_24dp"
             android:title="Devlopers" />
